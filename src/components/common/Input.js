@@ -13,6 +13,7 @@ export const Input = ({ label, value, onChangeText, placeholder, secureTextEntry
         placeholder={placeholder}
         secureTextEntry={secureTextEntry}
         autoCapitalize='none'
+        underlineColorAndroid='transparent'
       />
     </View>
   );
